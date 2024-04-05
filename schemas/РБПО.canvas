@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"489252712f3956cb","type":"text","text":"artifactory ","x":340,"y":-260,"width":250,"height":60,"color":"6"},
+		{"id":"b21bcdabf459d10d","type":"text","text":"CI/CD Tool","x":-200,"y":-260,"width":250,"height":60,"color":"6"},
+		{"id":"8ce9db7d28747242","type":"text","text":"Services SDL","x":-200,"y":-420,"width":250,"height":60,"color":"4"},
+		{"id":"721035e0f4138fc0","type":"text","text":"Git","x":-700,"y":-260,"width":250,"height":60,"color":"6"},
+		{"id":"48683a49bda5b22c","type":"text","text":"SAST","x":-200,"y":-600,"width":250,"height":60},
+		{"id":"682a60ed833ea8eb","type":"text","text":"DAST","x":120,"y":-600,"width":250,"height":60},
+		{"id":"0675ca137d89f788","x":-520,"y":-600,"width":250,"height":60,"type":"text","text":"SCA"},
+		{"id":"fb50935baa93ec2c","x":-395,"y":-60,"width":250,"height":60,"type":"text","text":"Assembly"},
+		{"id":"c1660394683f9c41","x":-5,"y":-60,"width":250,"height":60,"type":"text","text":"Doc"}
+	],
+	"edges":[
+		{"id":"a1923a4f3ef87d63","fromNode":"721035e0f4138fc0","fromSide":"right","toNode":"b21bcdabf459d10d","toSide":"left"},
+		{"id":"ffe53c7b130873fa","fromNode":"b21bcdabf459d10d","fromSide":"right","toNode":"489252712f3956cb","toSide":"left"},
+		{"id":"7d4070d24de487a3","fromNode":"b21bcdabf459d10d","fromSide":"top","toNode":"8ce9db7d28747242","toSide":"bottom"},
+		{"id":"014161727ada67d3","fromNode":"8ce9db7d28747242","fromSide":"right","toNode":"489252712f3956cb","toSide":"top"},
+		{"id":"0f3b7730a2d77aed","fromNode":"0675ca137d89f788","fromSide":"bottom","toNode":"8ce9db7d28747242","toSide":"top"},
+		{"id":"9a7e95dae1911a9c","fromNode":"48683a49bda5b22c","fromSide":"bottom","toNode":"8ce9db7d28747242","toSide":"top"},
+		{"id":"42918c76aa996ca7","fromNode":"682a60ed833ea8eb","fromSide":"bottom","toNode":"8ce9db7d28747242","toSide":"top"},
+		{"id":"7443617312b2ff62","fromNode":"b21bcdabf459d10d","fromSide":"bottom","toNode":"fb50935baa93ec2c","toSide":"top"},
+		{"id":"0128e6791037700b","fromNode":"b21bcdabf459d10d","fromSide":"bottom","toNode":"c1660394683f9c41","toSide":"top"},
+		{"id":"663599781d709735","fromNode":"fb50935baa93ec2c","fromSide":"right","toNode":"c1660394683f9c41","toSide":"left"},
+		{"id":"2841868f29a0439c","fromNode":"489252712f3956cb","fromSide":"bottom","toNode":"c1660394683f9c41","toSide":"top"}
+	]
+}

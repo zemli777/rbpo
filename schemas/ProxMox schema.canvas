@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"7c69d6b076601c3e","type":"file","file":"VMs/DNS VM.md","x":-445,"y":-280,"width":345,"height":120},
+		{"id":"9ec3b2b77d5dd486","type":"file","file":"VMs/Services VM.md","x":-80,"y":-280,"width":380,"height":120},
+		{"id":"8e8c94b0aa7e3089","type":"file","file":"VMs/Artifactory VM.md","x":-72,"y":-120,"width":372,"height":120},
+		{"id":"5acafcd6add9874d","type":"file","file":"VMs/Gitflic VM.md","x":-445,"y":60,"width":345,"height":120},
+		{"id":"b8bd926ab7ef6e42","type":"file","file":"VMs/Server Requirements.md","x":-72,"y":60,"width":392,"height":150},
+		{"id":"8f99dac47bb0fff8","type":"file","file":"VMs/Jenkins VM.md","x":-445,"y":-120,"width":345,"height":120}
+	],
+	"edges":[]
+}
